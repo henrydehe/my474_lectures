@@ -18,6 +18,7 @@ library("keras")
 Downloading the cifar data (this downloads roughly 700 MB of data):
 
 ```{r}
+set_random_seed(123)
 cifar <- dataset_cifar10()
 
 # Note that training and test set can be accessed as:

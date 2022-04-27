@@ -27,6 +27,8 @@ In this notebook, we will discuss the following example of an MLP classifying th
 Loading packages:
 
 ```{r}
+Sys.setenv(RETICULATE_PYTHON = "/Users/henrydehe/miniforge3/bin/python")
+library(reticulate)
 library("keras")
 ```
 
